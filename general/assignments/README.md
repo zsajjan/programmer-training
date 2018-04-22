@@ -61,6 +61,9 @@ The robot class should also have methods to:
  * raise/lower arm
  * pick up a cube
  * score a cube
+
+<img src="robot.png" width="500">
+
 Rules:
 The robot starts at position 0 with no cubes and the arm 0 inches off the ground.
 A cube can only be picked up when:
