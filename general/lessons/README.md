@@ -9,6 +9,6 @@
  * [loops](loops/README.md) - want to know how to make something repeat over and over? Click [here](https://nathansolomon1678.github.io/programmer-training/general/lessons/funny-joke-about-loops/README.md)!
  * [functions](functions/README.md) - chunks of code that you can repeat at any point in one line, and can work like math functions (like `f(x)`)
  * [DRY: Don't Repeat Yourself](dry/README.md) - become a good programmer by not unnecessarily repeating code. Sorry if this lesson is a bit dry.
- * [classes](classes/README.md) - **Q:** Who doesn't like object-oriented programming? **A:** lot's of people
+ * [classes](classes/README.md) - **Q:** Who doesn't like object-oriented programming? **A:** lots of people
  * [modules](modules/README.md) - use code from other files and helpful code that other people have made for you
  * [git & github](git/README.md) - version-control system, for collaborating on projects. No, it's not like google drive. Git is difficult until you get the hang of it.
