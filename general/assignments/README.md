@@ -56,16 +56,20 @@ Make a class for a robot! This robot can only drive in a straight line on a fiel
  * Arm position
  * Whether or not it has a piece
  * Score from scoring cubes
+
 The robot class should also have methods to:
  * move
  * raise/lower arm
  * pick up a cube
  * score a cube
 
-<img src="robot.png" width="500">
+<img src="https://nathansolomon1678.github.io/programmer-training/general/assignments/robot.png" width="500">
+
 
 Rules:
+
 The robot starts at position 0 with no cubes and the arm 0 inches off the ground.
+
 A cube can only be picked up when:
  * The robot is at space 3 (aka 3 meters from starting position)
  * The arm is 0 meters off the ground
