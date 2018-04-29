@@ -75,14 +75,14 @@ The robot class should also have methods to:
 
 <img src="https://nathansolomon1678.github.io/programmer-training/general/assignments/robot.png" width="500">
 
-**Rules:** The robot starts at position 0 with no cubes and the arm 0 inches off the ground.
+**Rules:** The robot starts at position 0 with no cubes and the arm 0 meters off the ground.
 
 A cube can only be picked up when:
 
  * The robot is at space 3 (aka 3 meters from starting position)
  * The arm is 0 meters off the ground
  * The robot does not already have a cube
-The robot must be holding a cube 10 inches in the air at space 7 to score it.
+The robot must be holding a cube 10 centimeters in the air at space 7 to score it.
 
 Once you have this class created, make a way for the user to control the robot! Use loops and input. Every time the robot does something, make sure to print out information on its position, etc. so the user doesn’t get confused.
 
