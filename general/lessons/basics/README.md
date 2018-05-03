@@ -14,7 +14,9 @@
 * Use `cd` and `ls` to navigate to the directory your file is in.
 * Type `python <name of your program>.py`. Press `enter`. Observe the following demo:
 
-    $ cd ~/robotics/training
+``
+
+    cd ~/robotics/training
     $ ls
     test.py
     $ python test.py
@@ -22,20 +24,22 @@
     It works!
 
 Try printing these arithmetic calculations and see what happens!
- * 5 + 9
- * 4 * 2 - 3
- * 7 * 10 ** .5
+
+    5 + 9
+    4 * 2 - 3
+    7 * 10 ** .5
+
 Once you are familiar with these, try one that shows 5 arithmetic expressions of your choice that results in the number 42. Feel free to look up how to do any fancy expressions.
 
 ## Order of operations
 Arithmetic calculations in python follow the order of operations. Here is the hierarchy (PEMDAS): 
 
-* () **P**arentheses  
-* \** **E**xponent
-* * **M**ultiplication
-* / **D**ivision
-* + **A**ddition
-* – **S**ubtraction
+* `()` **P**arentheses  
+* `**` **E**xponent
+* `*` **M**ultiplication
+* `/` **D**ivision
+* `+` **A**ddition
+* `-` **S**ubtraction
 
 When you divide two numbers without decimals, the result is always rounded down. For example:
 
