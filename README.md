@@ -1,9 +1,6 @@
 # Programmer Training
 
-This is designed for FRC team 1678, but anyone is welcome to use it to learn about:
- * python
- * c++
- * and more stuff
+This is designed for FRC team 1678, but anyone is welcome to use it to learn about python, c++, linux terminal, and more stuff.
 
 ### How the training is structured for our team
 **[General](https://nathansolomon1678.github.io/programmer-training/general):** This is where you start your basic python training. After a few months, join either app or robot programming.
