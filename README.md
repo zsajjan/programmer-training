@@ -12,7 +12,5 @@ This is designed for FRC team 1678, but anyone is welcome to use it to learn abo
 
 **[App](https://nathansolomon1678.github.io/programmer-training/app):** This is the subteam that creates and runs the scouting app. That includes doing calculations with the server (python), making the app for tablets (swift), and managing the database.
 
-Contributing:
-Anyone can contribute to this repository. Just fork it and make a Pull Request.
-
+----
 Once this is done, I plan to [transfer ownership](https://help.github.com/articles/about-repository-transfers/) of this repository to [frc1678](https://github.com/frc1678).

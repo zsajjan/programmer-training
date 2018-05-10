@@ -90,3 +90,7 @@ This is a pretty big assignment, so don’t be afraid to ask any questions!
 
 ### Modules
 Split your classes assignment into 2 files. One file should have the whole robot class, and the other should create the robot object and control it with user input.
+
+### Now study up and get ready for the final quiz:
+* Take it [here](https://docs.google.com/forms/d/e/1FAIpQLSesqDGqFUZuw9X8RcaLPB65NE911XQbtvdnTrvrlagUg0QwRw/viewform).
+* Knowing the answers to the quiz is not as important as being able to do the assignments.
