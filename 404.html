@@ -3,28 +3,51 @@
 <head>
   <style type="text/css">
 
-    #OctoCatLocator { position: absolute; visibility: visible; left: 100px; top: 40px; height: 100px; width: 150px; z-index: 200; }
+    .OctoCatLocator { 
+      position: relative;
+      visibility: visible;
+      left: 0;
+      top: 20px;
+      text-align: center;
+    }
 
-    #Title { position: absolute; left: 500px; top: -45px; }
-    #firstHeader { position: absolute; left: 420px; top: 80px; }
-    #secondHeader { position: absolute; left: 450px; top: 130px; }
+    .Title {
+      position: relative;
+      left: 0;
+      top: -10px;
+      text-align: center;
+    }
+    .firstHeader {
+      position: relative;
+      left: 0;
+      top: -30px;
+      text-align: center;
+    }
+    .secondHeader {
+      position: relative;
+      left: 0;
+      top: 0px; 
+      text-align: center;
+    }
 
   </style>
 </head>
 
 <body>
   
-  <h1 id="Title" style="font-size: 80px;">404 Error</h1>
-
-  <h2 id="firstHeader">Sorry, but the page your looking for does not exist</h2>
-
-  <h2 id="secondHeader">To go back to the homepage click <a href="https://nathansolomon1678.github.io/programmer-training/">HERE</a>
-
-  <div id="OctoCatLocator">
-    <img src="./.octocat.png"><br>
+  <div class="Title">
+    <h1 style="font-size: 80px;">404 Error</h1>
+    <div class="firstHeader">
+      <h2>Sorry, but the page you're looking for does not exist</h2>
+      <div class="secondHeader">
+        <h2>To go back to the homepage click <a href="https://nathansolomon1678.github.io/programmer-training/">HERE</a></h2>
+      </div>
+    </div>
   </div>
 
-
+  <div class="OctoCatLocator">
+    <img src="OctoCat.png"><br>
+  </div>
 
 </body>
 </html>
