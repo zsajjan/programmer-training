@@ -1,4 +1,4 @@
-# Classes in Python
+# Classes
 ----
 ## What are Classes?
 >Classes are essentially a user-defined data type. Classes have a few components:
@@ -9,8 +9,6 @@
 
 In order to better understand classes, we’ll look at it through a simple example. Imagine a class as a blueprint for a dog.
 
-
-
 ----
 ## Class Variables
 In order to make our dog with our blueprint, we’ll need to start off by knowing different characteristics of the dog, like fur color, eye color, and age. These attributes can be stored as variables, and are called class variables. 
@@ -18,9 +16,9 @@ In order to make our dog with our blueprint, we’ll need to start off by knowin
 
 
 
-    class Dog: ← This line signifies that we are 
+    class Dog: #This line signifies that we are 
     going to start defining a class called Dog
-      fur_color = "golden" ← These lines are where Class Variables are defined.
+    fur_color = "golden" #These lines are where Class Variables are defined.
     eye_color = "blue"    
     age = 3
 
@@ -33,7 +31,7 @@ The syntax to initialize a class is as follows:
 
     my_dog = Dog()
                    
-    Think of this as defining a variable called  my_dog, which is an instance of the class Dog
+Think of this as defining a variable called  my_dog, which is an instance of the class Dog
 
 Now that we have our instance, what can we do with it?
 For starters, let’s see if we can print our dog’s age! The code to do this would look like this:
@@ -42,7 +40,7 @@ For starters, let’s see if we can print our dog’s age! The code to do this w
 
 If we want to change our dog’s age, or other characteristic, we would use the following code:
 
-my_dog.age = 4
+    my_dog.age = 4
 
 # Initializer
 ----
@@ -55,15 +53,15 @@ In order to specify a class variable when we initialize it, we need to create an
 The syntax for creating a class with an initializer is as follows:
 
     class Dog:
-    fur_color = "golden" ← Class variables (always the same, shared by all instances)
+    fur_color = "golden" #Class variables (always the same, shared by all instances)
     eye_color = "blue"
     age = 3
 
-    def __init__(self, name): ← Initializer (these variables are unique to each instance of the class)
+    def __init__(self, name): #Initializer (these variables are unique to each instance of the class)
     """the self parameter means that the function concerns other elements of the class, and the name parameter is the user input for what the dog’s name should be"""
     self.name = name       
 
-    my_dog = Dog("Freddy")
+    my_dog = Dog("Margret")
 # Methods
 ---
 Congrats! You made it this far, but our dog’s not done yet, it needs to walk!
@@ -84,7 +82,7 @@ In the next side, I’ll present some example code to show you how to make a met
     def walk(self, dist): ← Class method (functions inside the class Dog that change the variable pos)
     self.pos += dist   
 
-    my_dog = Dog("Freddy", 0)
+    my_dog = Dog("Margret", 0)
     my_dog.walk(5)
     print my_dog.pos ← Returns 5
 
@@ -93,8 +91,9 @@ In the next side, I’ll present some example code to show you how to make a met
 What if we wanted to make different breeds of dog?
 For example, say we wanted to make a dalmatian class.
 In order to do this, we have two options:
-Create a whole new class from scratch
-Create a class based on the Dog() class and change the elements to fit a dalmatian
+* Create a whole new class from scratch
+* Create a class based on the Dog() class and change the elements to fit a dalmatian
+
 As you might have guessed, the second method is much more desirable, and there’s even a word for it: Subclasses
 In the next slide, I’ll go over the syntax for how to make a subclass!
 
@@ -118,4 +117,3 @@ In the next slide, I’ll go over the syntax for how to make a subclass!
     print my_dalmatian.age ← The child inherits the age variable from the parent class
     my_dalmatian.walk(3) ← The child inherits the walk method from the parent class as well!
     print my_dalmatian.pos ← Returns 4
-
