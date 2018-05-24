@@ -71,20 +71,20 @@ Class methods are functions that are part of the class and change things inside 
 In the next side, I’ll present some example code to show you how to make a method to make your dog walk!
 
     class Dog:
-    fur_color = "golden" ← Class variables (always the same, shared by all instances)
+    fur_color = "golden"  #Class variables (always the same, shared by all instances)
     eye_color = "blue"
     age = 3
 
-    def __init__(self, name, pos): ← Initializer (these variables are unique to each instance of the class)
+    def __init__(self, name, pos): #Initializer (these variables are unique to each instance of the class)
     self.name = name     
     self.pos = pos           
 
-    def walk(self, dist): ← Class method (functions inside the class Dog that change the variable pos)
+    def walk(self, dist): #Class method (functions inside the class Dog that change the variable pos)
     self.pos += dist   
 
     my_dog = Dog("Margret", 0)
     my_dog.walk(5)
-    print my_dog.pos ← Returns 5
+    print my_dog.pos #Returns 5
 
 # Subclasses
 ---
@@ -97,7 +97,7 @@ In order to do this, we have two options:
 As you might have guessed, the second method is much more desirable, and there’s even a word for it: Subclasses
 In the next slide, I’ll go over the syntax for how to make a subclass!
 
-    class Dog: ← Parent Dog class
+    class Dog: #Parent Dog class
     fur_color = "golden"
     eye_color = "blue"
     age = 3
@@ -109,11 +109,11 @@ In the next slide, I’ll go over the syntax for how to make a subclass!
     def walk(self, dist):
     pos += dist   
 
-    class Dalmatian(Dog): ← Child class of Dog
+    class Dalmatian(Dog): #Child class of Dog
     fur_color = "spotted"
-    eye_color = "black" ← Only unique elements need to be specified
+    eye_color = "black" #Only unique elements need to be specified
 
     my_dalmatian = Dalmation("Fido", 1)
-    print my_dalmatian.age ← The child inherits the age variable from the parent class
-    my_dalmatian.walk(3) ← The child inherits the walk method from the parent class as well!
-    print my_dalmatian.pos ← Returns 4
+    print my_dalmatian.age #The child inherits the age variable from the parent class
+    my_dalmatian.walk(3) #The child inherits the walk method from the parent class as well!
+    print my_dalmatian.pos #Returns 4
